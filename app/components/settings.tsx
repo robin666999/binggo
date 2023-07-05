@@ -67,7 +67,7 @@ function EditPromptModal(props: { id: number; onClose: () => void }) {
           />,
         ]}
       >
-{/*         <div className={styles["edit-prompt-modal"]}>
+        <div className={styles["edit-prompt-modal"]}>
           <input
             type="text"
             value={prompt.title}
@@ -92,7 +92,7 @@ function EditPromptModal(props: { id: number; onClose: () => void }) {
               )
             }
           ></Input>
-        </div> */}
+        </div>
       </Modal>
     </div>
   ) : null;
