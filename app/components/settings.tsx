@@ -80,7 +80,7 @@ function EditPromptModal(props: { id: number; onClose: () => void }) {
               )
             }
           ></input>
-          <Input
+{/*           <Input
             value={prompt.content}
             readOnly={!prompt.isUser}
             className={styles["edit-prompt-content"]}
@@ -91,7 +91,7 @@ function EditPromptModal(props: { id: number; onClose: () => void }) {
                 (prompt) => (prompt.content = e.currentTarget.value),
               )
             }
-          ></Input>
+          ></Input> */}
         </div>
       </Modal>
     </div>
