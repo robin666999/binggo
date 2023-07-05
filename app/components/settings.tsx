@@ -67,7 +67,7 @@ function EditPromptModal(props: { id: number; onClose: () => void }) {
           />,
         ]}
       >
-        <div className={styles["edit-prompt-modal"]}>
+{/*         <div className={styles["edit-prompt-modal"]}>
           <input
             type="text"
             value={prompt.title}
@@ -80,7 +80,7 @@ function EditPromptModal(props: { id: number; onClose: () => void }) {
               )
             }
           ></input>
-{/*           <Input
+          <Input
             value={prompt.content}
             readOnly={!prompt.isUser}
             className={styles["edit-prompt-content"]}
@@ -91,8 +91,8 @@ function EditPromptModal(props: { id: number; onClose: () => void }) {
                 (prompt) => (prompt.content = e.currentTarget.value),
               )
             }
-          ></Input> */}
-        </div>
+          ></Input>
+        </div> */}
       </Modal>
     </div>
   ) : null;
