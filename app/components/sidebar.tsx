@@ -120,7 +120,7 @@ export function SideBar(props: { className?: string }) {
           彬果AI智能小助手
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          需要授权码、Key和私有化部署的联系微信：BGKJ_2023
+          需要授权码和私有化部署的联系微信：BGKJ_2023
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
