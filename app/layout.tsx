@@ -5,8 +5,8 @@ import "./styles/highlight.scss";
 import { getClientConfig } from "./config/client";
 
 export const metadata = {
-  title: "ChatGPT Next Web",
-  description: "Your personal ChatGPT Chat Bot.",
+  title: "彬果AI智能小助手",
+  description: "需要授权码和私有化部署的联系微信:BGKJ 2023.",
   viewport: {
     width: "device-width",
     initialScale: 1,
