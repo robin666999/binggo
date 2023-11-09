@@ -61,7 +61,7 @@ export const ALL_MODELS = [
     available: ENABLE_GPT4,
   },
   {
-    name: "DALL·E 3",
+    name: "dalle-3",
     available: ENABLE_GPT4,
   },
   {
