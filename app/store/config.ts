@@ -65,7 +65,7 @@ export const ALL_MODELS = [
     available: ENABLE_GPT4,
   },
   {
-    name: "gpt-4-vision-preview",
+    name: "gpt-4-1106-preview",
     available: ENABLE_GPT4,
   },
   {
