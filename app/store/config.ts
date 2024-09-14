@@ -57,6 +57,14 @@ const ENABLE_GPT4 = true;
 
 export const ALL_MODELS = [
   {
+    name: "o1-preview",
+    available: true,
+  },
+  {
+    name: "o1-mini",
+    available: true,
+  },
+  {
     name: "gpt-4",
     available: ENABLE_GPT4,
   },
